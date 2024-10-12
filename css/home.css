@@ -1,0 +1,86 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.navigimi{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 30px;
+    background: #fff;
+    z-index: 9999;
+    border-bottom:1px solid #2e2b29 ;
+    height: 80px;
+}
+#linqet_e_navigimit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#linqet_e_navigimit li{
+    list-style: none;
+    padding-right: 30px;
+}
+
+#linqet_e_navigimit li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #070606;
+    padding: 10px 10px ;
+    font-family: Candara Light;
+    cursor: pointer;
+}
+
+#linqet_e_navigimit li a:hover{
+    color: #3a3838;
+    border-bottom:5px solid #3536368e ;
+    border-bottom-left-radius:8px ;
+    border-bottom-right-radius:8px;
+    border-right: 1px solid #3536368e;
+    border-top: 1px solid #3536368e;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-left: 1px solid #3536368e;
+    transition: all 0.1s ease 0.1s;
+}
+
+#linqet_e_navigimit li a:active{
+    border-bottom: 1px solid #3536368e;
+    background-color: #f0eae6;
+}
+.button11{
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #0505058e;
+    margin: 20px 20px 20px 20px;
+    color: #0707078e;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.button11 a{
+    color: #0000008e;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#button-5{
+    position:relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+#button-5 a{
+    position: relative;
+    transition: all .45s ease-out;
+}
