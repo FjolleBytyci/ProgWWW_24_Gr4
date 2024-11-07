@@ -1,60 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 
-html{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
     scroll-behavior: smooth;
 }
-.navigimi{
+
+.navigimi {
     position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 10px 30px;
+    padding: 16px 104px;
     background: #fff;
     z-index: 9999;
-    border-bottom:1px solid #2e2b29 ;
+    border-bottom: 1px solid #2e2b29;
     height: 80px;
 }
-#linqet_e_navigimit{
+
+#linqet_e_navigimit {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-#linqet_e_navigimit li{
+#linqet_e_navigimit li {
     list-style: none;
     padding-right: 30px;
 }
 
-#linqet_e_navigimit li a{
+#linqet_e_navigimit li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
     color: #070606;
-    padding: 10px 10px ;
+    padding: 10px 10px;
     font-family: Candara Light;
     cursor: pointer;
 }
 
-#linqet_e_navigimit li a:hover{
+#linqet_e_navigimit li a:hover {
     color: #3a3838;
-    border-bottom:5px solid #3536368e ;
-    border-bottom-left-radius:8px ;
-    border-bottom-right-radius:8px;
-    border-right: 1px solid #3536368e;
+    border-bottom: 5px solid#3536368e;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-right: 1px solid#3536368e;
     border-top: 1px solid #3536368e;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    border-left: 1px solid #3536368e;
+    border-left: 1px solid#3536368e;
     transition: all 0.1s ease 0.1s;
 }
 
-#linqet_e_navigimit li a:active{
+#linqet_e_navigimit li a:active {
     border-bottom: 1px solid #3536368e;
     background-color: #f0eae6;
 }
-.button11{
+
+.button11 {
     display: inline-flex;
     height: 40px;
     width: 150px;
@@ -69,93 +81,193 @@ html{
     justify-content: center;
     overflow: hidden;
 }
-.button11 a{
+
+.button11 a {
     color: #0000008e;
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: bold;
 }
-#button-5{
-    position:relative;
+
+#button-5 {
+    position: relative;
     overflow: hidden;
     cursor: pointer;
 }
-#button-5 a{
+
+#button-5 a {
     position: relative;
     transition: all .45s ease-out;
 }
-#bar{
-	color:#ff5733;
-	display: none;
+
+#translate {
+    transform: rotate(50deg);
+    width: 100%;
+    height: 250%;
+    left: -200px;
+    top: -30px;
+    background: #000000;
+    position: absolute;
+    transition: all .3s ease-Out;
 }
 
-.prapavija{
-	background-image: url(../images/autumn2.jpg);
-	width: 100%;
-	height: 100vh;
-	background-size: cover;
-	z-index: -1;
+#button-5:hover #translate {
+    left: 0;
 }
 
-.prapavija .prapavija1{
-	background:#171819;
-	width: 100%;
-	height: 100%;
-	opacity: 0.5;
-}
-.klasa1{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-align: center;
+#button-5:hover a {
+    color: #ffffff;
 }
 
-.klasa1 p{
-	color:#bfe4e7;
-	font-size: 20.8px;
-	font-weight: 700;
-	margin-bottom: 22.4px;
+#bar {
+    color: #ff5733;
+    display: none;
 }
 
-.klasa1 h2{
-	color:#fff;
-	font-size: 48px;
+.prapavija {
+    background-image: url(../images/autumn2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
 }
 
-.klasa1 .linqe{
-	margin-top: 20px;
+.prapavija .prapavija1 {
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.klasa1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.klasa1 p {
+    color: #bfe4e7;
+    font-size: 20.8px;
+    font-weight: 700;
+    margin-bottom: 22.4px;
+}
+
+.klasa1 h2 {
+    color: #fff;
+    font-size: 48px;
+}
+
+.klasa1 .linqe {
+    margin-top: 20px;
 
 }
 
-.klasa1 .linqe a{
-	text-decoration: none;
-	text-transform: uppercase;
+.klasa1 .linqe a {
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.klasa1 .linqe a.simple{
-	color:#fff;
-	font-weight: 700;
-	padding: 14.4px 25.6px;
+.klasa1 .linqe a.simple {
+    color: #fff;
+    font-weight: 700;
+    padding: 14.4px 25.6px;
 }
 
-.klasa1 .linqe a.simple:hover{
-	color:#ff5733;
-	font-weight: 780;
-	transition: all 0.3s ease 0s;
+.klasa1 .linqe a.simple:hover {
+    color: #ff5733;
+    font-weight: 780;
+    transition: all 0.3s ease 0s;
 }
 
-.klasa1 .linqe a.border{
-	color:#ff5733;
-	border:1px solid #ff5733;
-	font-weight: 500;
-	padding: 14.4px 25.6px;
-	border-radius: 3px;
+.klasa1 .linqe a.border {
+    color: #ff5733;
+    border: 1px solid #ff5733;
+    font-weight: 500;
+    padding: 14.4px 25.6px;
+    border-radius: 3px;
 }
 
-.klasa1 .linqe a.border:hover{
-	background-color: #fff;
-	border:1px solid #fff;
-	font-weight: 700;
-	transition: all 0.3s ease 0s;
+.klasa1 .linqe a.border:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-weight: 700;
+    transition: all 0.3s ease 0s;
+}
+
+.Te_dhena {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 128px 240px;
+    background-color: #171819;
+}
+
+.Te_dhena h3,
+h6,
+h5 {
+    color: #fff;
+}
+
+.Te_dhena .one {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Te_dhena .one h3 {
+    font-size: 40px;
+    padding-bottom: 17.6px;
+}
+
+.Te_dhena .one h6 {
+    font-size: 20.8px;
+    font-weight: 400;
+    padding-bottom: 19.2px;
+}
+
+.Te_dhena .one p {
+    color: #666262;
+    font-size: 19.2px;
+    padding-bottom: 48px;
+}
+
+.Te_dhena .one a {
+    color: #fff;
+    background-color: #f13a11;
+    padding: 16px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Te_dhena .one a:hover {
+    background-color: #fff;
+    color: #f13a11;
+    transition: all 0.3s ease 0s;
+    font-weight: 600;
+}
+
+.Te_dhena .two {
+    width: 45%;
+    border-left: 1px solid #666262;
+    padding-left: 64px;
+}
+
+.Te_dhena .two h3 {
+    font-size: 40px;
+}
+
+.Te_dhena .two h5 {
+    font-size: 17.6px;
+}
+
+.Te_dhena .two p {
+    font-size: 17.6px;
+    color: #666262;
+    margin-bottom: 12.8px;
 }
