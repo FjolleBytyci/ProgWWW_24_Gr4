@@ -271,3 +271,93 @@ h5 {
     color: #666262;
     margin-bottom: 12.8px;
 }
+
+.klasa2 {
+	background-color: #f9f9f9;
+	padding: 128px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.klasa2 .about {
+	width: 39%;
+}
+
+.klasa2 .about h2 {
+	color: #212529;
+	font-size: 33.6px;
+	padding-bottom: 28.8px;
+}
+
+.klasa2 .about p {
+	color: #7f8c8d;
+	font-size: 17.6px;
+}
+
+.klasa2 .travel {
+	width: 57%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.klasa2 .travel .team1 {
+	width: 45%;
+	height: auto;
+	box-sizing: border-box;
+	background-color: #fff;
+	box-shadow:
+		0 0px 0.7px rgba(0, 0, 0, 0.233),
+		0 0px 1.9px rgba(0, 0, 0, 0.333),
+		0 0px 3.8px rgba(0, 0, 0, 0.417),
+		0 0px 7.6px rgba(0, 0, 0, 0.517),
+		0 0px 21px rgba(0, 0, 0, 0.75)
+}
+
+.klasa2 .travel .team1 .img img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.klasa2 .travel .team1 .name,
+.klasa2 .travel .team1 .pro {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.klasa2 .travel .team1 .name {
+	padding: 5px 20px 0 20px;
+}
+
+.klasa2 .travel .team1 .teamDetails {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.klasa2 .travel .team1 .name h4 {
+	color: 212529;
+	font-size: 24px;
+}
+
+.klasa2 .travel .team1 .name i,
+.klasa2 .travel .team1 .pro i {
+	font-size: 20.8px;
+	font-weight: bolder;
+	cursor: pointer;
+	color: 212529;
+}
+
+.klasa2 .travel .team1 .pro {
+	padding: 0 20px 5px 20px;
+}
+
+.klasa2 .travel .team1 .pro p {
+	color: 212529;
+}
