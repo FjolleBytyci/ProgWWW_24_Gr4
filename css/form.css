@@ -1,0 +1,158 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    border: 0%;
+    background-color: rgb(3, 3, 3);
+}
+
+.divi1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/sunset.png);
+    background-size: cover;
+    z-index: -1;
+    filter: blur(20px);
+}
+
+.divi3 {
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    right: 12%;
+    bottom: 5%;
+    padding: 0%;
+    margin: 0%;
+    box-shadow: 0px 0px 30px 0px rgba(39, 37, 41, 0.75);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.header {
+    height: 100%;
+    width: 35%;
+    background-image: url(../images/foto22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.nendiv {
+    background: linear-gradient(#4752ce, #da450b);
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.permbajtja {
+    height: 100%;
+    width: 65%;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.titull {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.titull {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.titull h1 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
+    color: rgb(41, 89, 179);
+}
+
+.titull h3 {
+    margin: auto;
+    width: 30%;
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+    padding: 0%;
+    color: rgb(214, 111, 15);
+    border-bottom: 1px solid rgb(41, 89, 179);
+}
+
+.titull i {
+    color: rgb(214, 111, 15);
+    font-size: 15px;
+}
+
+.titull p {
+    font-size: 30px;
+    font-family: Bradley Hand ITC;
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+}
+
+.formulari {
+    width: 90%;
+    height: 73%;
+    margin: auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow:
+        0 0px 60px rgba(233, 219, 219, 0.233),
+        0 0px 50px rgba(233, 219, 219, 0.333),
+        0 0px 30px rgba(233, 219, 219, 0.417),
+        0 0px 16px rgba(233, 219, 219, 0.517),
+        0 0px 20px rgba(233, 219, 219, 0.75);
+    padding-top: 10px;
+    align-content: center;
+}
+
+.ndarje {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 8px;
+}
+
+.email {
+    width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mesazhet {
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.butonnat {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
