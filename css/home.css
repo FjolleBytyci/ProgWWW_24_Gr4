@@ -361,6 +361,201 @@ h5 {
 .klasa2 .travel .team1 .pro p {
 	color: 212529;
 }
+
+.class {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 112px 128px;
+}
+
+.class .paragraph {
+	font-size: 20.8px;
+	color: #59a5a6;
+	padding-bottom: 6px;
+	text-align: center;
+}
+
+.class .h2 {
+	font-size: 35.2px;
+	color: #222;
+	font-weight: 700;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.class .classMenu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.class .classMenu .team1 {
+	width: 32%;
+	height: auto;
+	box-sizing: border-box;
+	background-color: #fff;
+	box-shadow:
+		0 0px 0.7px rgba(0, 0, 0, 0.233),
+		0 0px 1.9px rgba(0, 0, 0, 0.333),
+		0 0px 3.8px rgba(0, 0, 0, 0.417),
+		0 0px 7.6px rgba(0, 0, 0, 0.517),
+		0 0px 21px rgba(0, 0, 0, 0.75)
+}
+
+.class .classMenu .team1 .img img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.class .classMenu .team1 .teamDetails {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.class .classMenu .team1 .teamDetails .name {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 30px 0 30px;
+}
+
+.class .classMenu .team1 .teamDetails .name .nameDetalis h4 {
+	color: #212529;
+	font-size: 27.2px;
+}
+
+.class .classMenu .team1 .teamDetails .name .nameDetalis p {
+	color: #212529;
+	font-size: 17.6px;
+}
+
+.class .classMenu .team1 .teamDetails .name .nameDetalis p span {
+	font-weight: 700;
+	font-size: 17.6px;
+}
+
+.class .classMenu .team1 .teamDetails .name .num h5 {
+	font-size: 16px;
+	background-color: #f13a11;
+	width: 56px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.class .classMenu .team1 .pro {
+	padding: 15px 30px 30px 30px;
+}
+
+.class .classMenu .team1 .pro p {
+	font-size: 17.6px;
+	color: #666262;
+
+}
+
+.kontakt {
+	padding: 128px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.kontakt .form {
+	width: 45%;
+}
+
+.kontakt .form h2 {
+	font-size: 32px;
+	color: #212529;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.kontakt .form .submit {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.kontakt .form .submit input,
+.kontakt .form .submit textarea {
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #95a5a6;
+	outline: none;
+	margin: 13px 0;
+}
+
+.kontakt .form .submit input:focus,
+.kontakt .form .submit textarea:focus {
+	border: 1px solid #111;
+}
+
+.kontakt .form .submit input::placeholder {
+	color: #7f8c8d;
+	font-size: 17.6px;
+}
+
+.kontakt .form .submit textarea::placeholder {
+	color: #7f8c8d;
+	font-size: 17.6px;
+	height: 80%;
+}
+
+.kontakt .form .submit a {
+	width: 100%;
+	padding: 15px 0;
+	text-decoration: none;
+	background-color: #111;
+	color: #fff;
+	text-align: center;
+	font-size: 17.6px;
+	margin: 13px 0;
+}
+
+.kontakt .form .submit a:hover {
+	border-bottom: 4px solid red;
+	background-color: #111;
+	color: #fff;
+	font-weight: 600;
+	transition: all 0.3s ease 0s;
+}
+
+.kontakt .harta {
+	width: 45%;
+}
+
+.kontakt .harta h2 {
+	font-size: 32px;
+	color: #212529;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.kontakt .harta p {
+	font-size: 17.6px;
+	color: #212529;
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+.kontakt .harta p i {
+	color: red;
+	padding-right: 4px;
+}
+
+.kontakt .harta iframe {
+	width: 100%;
+}
+
 footer {
 	background-color: #998c85;
 	line-height: 24px;
