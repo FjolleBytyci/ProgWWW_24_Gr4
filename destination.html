@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Destination</title>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="https://kit.fontawesome.com/0a786c01b2.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/destination.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<title>Destination</title>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Indie+Flower&display=swap"
+		rel="stylesheet">
 </head>
 
 <body>
 	<div class="navigimi">
-		<img src="images/logotouch.png">
+		<img src="images/logotouch.png" style="width: 30%;">
 		<ul id="linqet_e_navigimit">
 			<li><a href="home.html">Home</a></li>
 			<li><a href="albania1.html">Albania</a></li>
@@ -36,7 +43,6 @@
 	</div>
 
 	<!--Places-->
-
 	<section id="place">
 		<div class="contenth2">
 			<p>Some of the most beautiful places in the world we recommend you to visit:</p>
@@ -88,7 +94,23 @@
 			<div class="contenth-img">
 				<img src="images/canada.jpg">
 			</div>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$("#btnHide").click(function () {
 
+						$(".contenth-text").hide(); //fsheh elementin h2\ 
+						$(".Njetabel").hide();
+					}
+					);
+					$("#btnShow").click(function () {
+						$(".contenth-text").show();//shfaqe heading h2
+						$(".Njetabel").show();
+					}
+					);
+
+				}
+				);
+			</script>
 		</div>
 	</section>
 
@@ -111,7 +133,7 @@
 							on the planet.</p>
 					</div>
 				</div>
-				<table>
+				<table class="tabela2">
 					<tr>
 						<th>PRICE</th>
 					</tr>
@@ -123,10 +145,29 @@
 							vacation rentals can be booked for as low as $120 per night.</td>
 					</tr>
 				</table>
+				<button id="btnHide1">hide</button>
+				<button id="btnShow1">show</button>
 			</div>
-			<div class="contenth2-img">
+			<div class="contenth-img">
 				<img src="images/borabora.jpg">
 			</div>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$("#btnHide1").click(function () {
+
+						$(".contenth2-text").hide(); //fsheh elementin h2\ 
+						$(".tabela2").hide();
+					}
+					);
+					$("#btnShow1").click(function () {
+						$(".contenth2-text").show();//shfaqe heading h2
+						$(".tabela2").show();
+					}
+					);
+
+				}
+				);
+			</script>
 		</div>
 	</section>
 
@@ -152,7 +193,7 @@
 							best winter adventure activities on offer.</p>
 					</div>
 				</div>
-				<table>
+				<table class="tabela3">
 					<tr>
 						<th>PRICE</th>
 					</tr>
@@ -163,10 +204,29 @@
 							cost around 100-250 EUR round-trip.</td>
 					</tr>
 				</table>
+				<button id="btnHide2">hide</button>
+				<button id="btnShow2">show</button>
 			</div>
-			<div class="contenth3-img">
+			<div class="contenth-img">
 				<img src="images/norway.jpg">
 			</div>
+	<script type="text/javascript">
+				$(document).ready(function () {
+					$("#btnHide2").click(function () {
+
+						$(".contenth3-text").hide(); //fsheh elementin h2\ 
+						$(".tabela3").hide();
+					}
+					);
+					$("#btnShow2").click(function () {
+						$(".contenth3-text").show();//shfaqe heading h2
+						$(".tabela3").show();
+					}
+					);
+
+				}
+				);
+			</script>
 		</div>
 	</section>
 
@@ -188,7 +248,7 @@
 							inspiration for many writers, artists, and filmmakers.</p>
 					</div>
 				</div>
-				<table>
+				<table class="tabela4">
 					<tr>
 						<th>PRICE</th>
 					</tr>
@@ -203,14 +263,535 @@
 							one week.</td>
 					</tr>
 				</table>
+				<button id="btnHide3">hide</button>
+				<button id="btnShow3">show</button>
 			</div>
-			<div class="contenth4-img">
+			<div class="contenth-img">
 				<img src="images/paris.jpg">
 			</div>
+	<script type="text/javascript">
+				$(document).ready(function () {
+					$("#btnHide3").click(function () {
+
+						$(".contenth4-text").hide(); //fsheh elementin h2\ 
+						$(".tabela4").hide();
+					}
+					);
+					$("#btnShow3").click(function () {
+						$(".contenth4-text").show();//shfaqe heading h2
+						$(".tabela4").show();
+					}
+					);
+
+				}
+				);
+			</script>
 		</div>
 	</section>
 
+	<!--Places5-->
 
+	<section id="place5">
+		<div class="contenth10">
+			<p>Iceland</p>
+		</div>
+		<div class="contenth11">
+			<div class="places5">
+				<h1>Blue Lagoon, Iceland</h1>
+				<div class="contenth5-desc">
+					<div class="contenth5-text">
+						<p>The Blue Lagoon is one of the most popular tourist attractions
+							in Iceland. The steamy milky blue water against the black lava
+							rock landscape creates an otherworldly setting like no other.
+							Sitting in the hot waters of the geothermal spa can be a truly
+							intoxicating and relaxing experience.</p>
+					</div>
+				</div>
+				<table class="tabela5">
+					<tr>
+						<th>ENTRY - Daily</th>
+						<th> </th>
+					</tr>
+					<tr>
+						<td>Transport to the Blue Lagoon from airport</td>
+						<td>$20</td>
+					</tr>
+					<tr>
+						<td>Entrance and use of the cream</td>
+						<td>€45 or $51</td>
+					</tr>
+					<tr>
+						<td>Entrance, use of cream, towel, a drink, and special face
+							mask</td>
+						<td>€60 or $67,5</td>
+					</tr>
+					<tr>
+						<td>All of the above, plus bathrobe, slippers and more</td>
+						<td>€75 or $84</td>
+					</tr>
+					<tr>
+						<td>All of the above, plus set of skin products, lounge access
+							and more</td>
+						<td>€400 or $450</td>
+					</tr>
+					<tr>
+						<td>Determine what is being massaged in the water</td>
+						<td>€75 or $84</td>
+					</tr>
+					<tr>
+						<td>Massage with scrub and wrap</td>
+						<td>€230 or $260</td>
+					</tr>
+					<tr>
+						<td>Learn about history, free cocktail and chemistry test</td>
+						<td>€15 or $17</td>
+					</tr>
+				</table>
+				<button id="btnHide4">hide</button>
+				<button id="btnShow4">show</button>
+			</div>
+			<div class="contenth-img">
+				<img src="images/iceland.jpg">
+			</div>
+	<script type="text/javascript">
+				$(document).ready(function () {
+					$("#btnHide4").click(function () {
+
+						$(".contenth5-text").hide(); 
+						$(".tabela5").hide();
+					}
+					);
+					$("#btnShow4").click(function () {
+						$(".contenth5-text").show();
+						$(".tabela5").show();
+					}
+					);
+
+				}
+				);
+			</script>
+		</div>
+	</section>
+
+	<!--Places6-->
+
+	<section id="place6">
+		<div class="contenth12">
+			<p>United Arab Emirates</p>
+		</div>
+		<div class="contenth13">
+			<div class="places6">
+				<h1>Dubai, United Arab Emirates</h1>
+				<div class="contenth6-desc">
+					<div class="contenth6-text">
+						<p>Dubai is a city full of ambition from mega malls to some of the
+							tallest buildings and the largest artificial islands in the world.
+							Visitors will feel safe and secure while exploring the area at any
+							given the time of day. Ultimately, although Dubai is considered
+							as a safe travel destination, it is still imperative to be cautious
+							of yourself, your belongings and the surroundings.</p>
+					</div>
+				</div>
+				<table class="tabela6">
+					<tr>
+						<th>PRICE</th>
+					</tr>
+					<tr>
+						<td>You should plan to spend around $198 per day on your vacation in
+							Dubai, which is the average daily price based on the expenses of
+							other visitors. Past travelers have spent, on average, $45 on meals
+							for one day and $10 on local transportation. Also, the average hotel
+							price in Dubai for a couple is $272. So, a trip to Dubai for two
+							people for one week costs on average $2,778.</td>
+					</tr>
+				</table>
+				<button id="btnHide5">hide</button>
+				<button id="btnShow5">show</button>
+			</div>
+			<div class="contenth-img">
+				<img src="images/dubai.jpg">
+			</div>
+	<script type="text/javascript">
+				$(document).ready(function () {
+					$("#btnHide5").click(function () {
+
+						$(".contenth6-text").hide();
+						$(".tabela6").hide();
+					}
+					);
+					$("#btnShow5").click(function () {
+						$(".contenth6-text").show();
+						$(".tabela6").show();
+					}
+					);
+
+				}
+				);
+			</script>
+		</div>
+	</section>
+
+	<!--Places7-->
+
+	<section id="place7">
+		<div class="contenth14">
+			<p>China</p>
+		</div>
+		<div class="contenth15">
+			<div class="places7">
+				<h1>Shanghai, China</h1>
+				<div class="contenth7-desc">
+					<div class="contenth7-text">
+						<p>Shanghai is China's biggest and most prosperous city. It is one
+							of China's greatest economic and cultural centers, therefore it is
+							popularly seen as the birthplace of everything considered
+							modern in China. Shanghai is a tourist destination famous for
+							historical landmarks as well as modern, ever-expanding skylines.
+							You will never get bored in this dynamic metropolis.</p>
+					</div>
+				</div>
+				<table class="tabela7">
+					<tr>
+						<th>PRICE</th>
+					</tr>
+					<tr>
+						<td>You should plan to spend around $102 per day on your vacation in
+							Shanghai, which is the average daily price based on the expenses of
+							other visitors. Past travelers have spent, on average, $19 on meals for
+							one day and $3.43 on local transportation. Also, the average hotel price
+							in Shanghai for a couple is $143. So, a trip to Shanghai for two people
+							for one week costs on average $1,425.</td>
+					</tr>
+				</table>
+				<button id="btnHide6">hide</button>
+				<button id="btnShow6">show</button>
+			</div>
+			<div class="contenth-img">
+				<img src="images/shanghai.jpg">
+			</div>
+	<script type="text/javascript">
+				$(document).ready(function () {
+					$("#btnHide6").click(function () {
+
+						$(".contenth7-text").hide(); 
+						$(".tabela7").hide();
+					}
+					);
+					$("#btnShow6").click(function () {
+						$(".contenth7-text").show();
+						$(".tabela7").show();
+					}
+					);
+
+				}
+				);
+			</script>
+		</div>
+	</section>
+
+	<!--Places8-->
+
+	<section id="place8">
+		<div class="contenth16">
+			<p>United States of America</p>
+		</div>
+		<div class="contenth17">
+			<div class="places8">
+				<h1>New York, USA</h1>
+				<div class="contenth8-desc">
+					<div class="contenth8-text">
+						<p>As one of the world’s leading metropolises for art, fashion, food
+							and theater, New York is a city every traveler should visit. The
+							culture, traditions, and natural beauty of New York make it a
+							great state.</p>
+					</div>
+				</div>
+				<table class="tabela8">
+					<tr>
+						<th>PRICE</th>
+					</tr>
+					<tr>
+						<td>You should plan to spend around $239 per day on your vacation in
+							New York City, which is the average daily price based on the expenses
+							of other visitors. Past travelers have spent, on average, $38 on meals
+							for one day and $40 on local transportation. Also, the average hotel
+							price in New York City for a couple is $275. So, a trip to New York
+							City for two people for one week costs on average $3,351.</td>
+					</tr>
+				</table>
+				<button id="btnHide7">hide</button>
+				<button id="btnShow7">show</button>
+			</div>
+			<div class="contenth-img">
+				<img src="images/newyork.jpg">
+			</div>
+	<script type="text/javascript">
+				$(document).ready(function () {
+					$("#btnHide7").click(function () {
+
+						$(".contenth8-text").hide();  
+						$(".tabela8").hide();
+					}
+					);
+					$("#btnShow7").click(function () {
+						$(".contenth8-text").show();
+						$(".tabela8").show();
+					}
+					);
+
+				}
+				);
+			</script>
+		</div>
+	</section>
+
+	<!--Places9-->
+
+	<section id="place9">
+		<div class="contenth18">
+			<p>Turkey</p>
+		</div>
+		<div class="contenth19">
+			<div class="places9">
+				<h1>Pamukkale, Turkey</h1>
+				<div class="contenth9-desc">
+					<div class="contenth9-text">
+						<p>Pamukkale is famous for its white terraces made of travertine,
+							a sedimentary rock deposited by water from the seventeen
+							naturally occurring hot springs in the area. The water that
+							emerges from these springs is supersaturated with calcium
+							carbonate. When it reaches the surface, carbon dioxide de-
+							gasses from the water, depositing the calcium carbonate as a
+							soft gel which eventually crystallizes into travertine.</p>
+					</div>
+				</div>
+				<table class="tabela9">
+					<tr>
+						<th>PRICE</th>
+					</tr>
+					<tr>
+						<td>You should plan to spend around $11 per day on your vacation in
+							Pamukkale, which is the average daily price based on the expenses of
+							other visitors. Past travelers have spent, on average, $3.16 on meals
+							for one day and $0.77 on local transportation. Also, the average hotel
+							price in Pamukkale for a couple is $10. So, a trip to Pamukkale for
+							two people for one week costs on average $149.</td>
+					</tr>
+				</table>
+				<button id="btnHide8">hide</button>
+				<button id="btnShow8">show</button>
+			</div>
+			<div class="contenth-img">
+				<img src="images/pamukkale.jpg">
+			</div>
+	<script type="text/javascript">
+				$(document).ready(function () {
+					$("#btnHide8").click(function () {
+
+						$(".contenth9-text").hide(); 
+						$(".tabela9").hide();
+					}
+					);
+					$("#btnShow8").click(function () {
+						$(".contenth9-text").show();
+						$(".tabela9").show();
+					}
+					);
+
+				}
+				);
+			</script>
+		</div>
+	</section>
+
+	<!--Places10-->
+
+	<section id="place10">
+		<div class="contenth20">
+			<p>Greece</p>
+		</div>
+		<div class="contenth21">
+			<div class="places10">
+				<h1>Santorini, Greece</h1>
+				<div class="contenth10-desc">
+					<div class="contenth10-text">
+						<p>Surrounded by turquoise water, the Island is cluttered with
+							multi-colored cliffs, hot-headed volcanoes, and acres of sun-
+							toasted sand. Adding to the marvels of nature are the ancient
+							relics, delectable cuisine, and adrenaline-pumping activities―all of
+							which make your trip unforgettable.</p>
+					</div>
+				</div>
+				<table class="tabela10">
+					<tr>
+						<th>PRICE</th>
+					</tr>
+					<tr>
+						<td>You should plan to spend around €109 ($132) per day on your
+							vacation in Santorini, which is the average daily price based on the
+							expenses of other visitors. Past travelers have spent, on average,
+							€33 ($41) on meals for one day and €14 ($17) on local transportation.
+							Also, the average hotel price in Santorini for a couple is €109 ($133).
+							So, a trip to Santorini for two people for one week costs on average
+							€1,524 ($1,849).</td>
+					</tr>
+				</table>
+				<button id="btnHide9">hide</button>
+				<button id="btnShow9">show</button>
+			</div>
+			<div class="contenth-img">
+				<img src="images/santorini.jpg">
+			</div>
+	<script type="text/javascript">
+				$(document).ready(function () {
+					$("#btnHide9").click(function () {
+
+						$(".contenth10-text").hide(); 
+						$(".tabela10").hide();
+					}
+					);
+					$("#btnShow9").click(function () {
+						$(".contenth10-text").show();
+						$(".tabela10").show();
+					}
+					);
+
+				}
+				);
+			</script>
+		</div>
+	</section>
+
+	<!--Places11-->
+
+	<section id="place11">
+		<div class="contenth22">
+			<p>Maldives</p>
+		</div>
+		<div class="contenth23">
+			<div class="places11">
+				<h1>Islands of the Maldives</h1>
+				<div class="contenth11-desc">
+					<div class="contenth11-text">
+						<p>Maldives is well known for its crystalline waters with beautiful
+							shades of blue, swaying palm trees, and sparkling white sand
+							under the limitless blue skies. With good weather throughout
+							most of the year, Maldives makes a great choice for an idyllic
+							beach getaway. It is the ultimate dream of luxury and tranquility.</p>
+					</div>
+				</div>
+				<table class="tabela11">
+					<tr>
+						<th>PRICE</th>
+					</tr>
+					<tr>
+						<td>You should plan to spend around $60 per day on your vacation in the
+							Maldives, which is the average daily price based on the expenses of
+							other visitors. Past travelers have spent, on average, $13 on meals for
+							one day and $7.10 on local transportation. Also, the average hotel price
+							in the Maldives for a couple is $84. So, a trip to the Maldives for two
+							people for one week costs on average $838.</td>
+					</tr>
+				</table>
+				<button id="btnHide10">hide</button>
+				<button id="btnShow10">show</button>
+			</div>
+			<div class="contenth-img">
+				<img src="images/maldives.jpg">
+			</div>
+	<script type="text/javascript">
+				$(document).ready(function () {
+					$("#btnHide10").click(function () {
+
+						$(".contenth11-text").hide(); 
+						$(".tabela11").hide();
+					}
+					);
+					$("#btnShow10").click(function () {
+						$(".contenth11-text").show();
+						$(".tabela11").show();
+					}
+					);
+
+				}
+				);
+			</script>
+		</div>
+	</section>
+
+	<!--Contact Section-->
+	<section id="contact">
+		<div class="contact container">
+			<div>
+				<h1 class="section-title">CONTACT FOR MORE RECOMMENDATIONS:</h1>
+			</div>
+			<div class="contact-items">
+				<div class="contact-item">
+					<div class="icon"><img src="images/phone.png" /> </div>
+					<div class="contact-info">
+						<h1>Phone:</h1>
+						<h2>+383 44 111 222</h2>
+						<h2>+383 49 123 456</h2>
+					</div>
+				</div>
+				<div class="contact-item">
+					<div class="icon"><img src="images/email.png" /> </div>
+					<div class="contact-info">
+						<h1>Email:</h1>
+						<h2>fjollabytyqi.f@gmail.com</h2>
+						<h2>uresabytyqi@gmail.com</h2>
+					</div>
+				</div>
+				<div class="contact-item">
+					<div class="icon"><img src="images/address.png" /> </div>
+					<div class="contact-info">
+						<h1>Address:</h1>
+						<h2>Prishtinë, Kosovë</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--End Contact Section-->
+
+	<footer>
+		<div class="art">
+			<div class="content">
+				<section>
+					<header>Agency</header>
+					<a href="Contact-us.html">About</a>
+					<a href="Contact-us.html">Contact us</a>
+					<a href="Contact-us.html">Team</a>
+				</section>
+				<section>
+					<header>Development</header>
+					<a href="home.html">Website</a>
+					<a href="tour.html">Tour</a>
+					<a href="https://travel.state.gov/">Travel</a>
+				</section>
+				<section>
+					<header>More and more</header>
+					<form action="">
+						<input type="email" placeholder="Your email" id="">
+						<a href="https://www.youtube.com/">Subscribe</a>
+					</form>
+					<div class="social">
+						<a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+						<a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+						<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.telegram.com/"><i class="fab fa-telegram-plane"></i></a>
+					</div>
+				</section>
+			</div>
+			<div class="notice">
+				Copyright protected &copy;
+				<strong>All rights reserved</strong>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/index.js"></script>
 
 </body>
 
