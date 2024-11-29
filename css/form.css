@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -7,16 +7,16 @@ body {
     background-color: rgb(3, 3, 3);
 }
 
-.divi1 {
+.divi1{
     width: 100%;
     height: 100%;
     background-image: url(../images/sunset.png);
-    background-size: cover;
+    background-size: cover; 
     z-index: -1;
     filter: blur(20px);
 }
 
-.divi3 {
+.divi3{
     position: absolute;
     top: 5%;
     left: 12%;
@@ -24,16 +24,16 @@ body {
     bottom: 5%;
     padding: 0%;
     margin: 0%;
-    box-shadow: 0px 0px 30px 0px rgba(39, 37, 41, 0.75);
+    box-shadow:0px 0px 30px 0px rgba(39, 37, 41, 0.75);
     display: flex;
     flex-direction: row;
     border-radius: 20px;
 }
 
-.header {
+.heder{
     height: 100%;
     width: 35%;
-    background-image: url(../images/foto22.jpg);
+    background-image: url(../images/foto22.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -41,18 +41,16 @@ body {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
-
-.nendiv {
-    background: linear-gradient(#4752ce, #da450b);
-    width: 100%;
-    height: 100%;
+.nendiv{
+    background: linear-gradient(#4752ce,#da450b);
+	width: 100%;
+	height: 100%;
     opacity: 0.3;
     border-radius: 20px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
-
-.permbajtja {
+.permbajtja{
     height: 100%;
     width: 65%;
     margin: auto;
@@ -61,85 +59,114 @@ body {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-
-.titull {
+.titull{
     margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
     justify-content: center;
 }
-
-.titull {
-    margin-top: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-    justify-content: center;
-}
-
-.titull h1 {
+.titull h1{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     margin: 0%;
     padding: 0%;
-    color: rgb(41, 89, 179);
+    color: rgb(93, 129, 198);
 }
-
-.titull h3 {
-    margin: auto;
+.titull h3{
+    margin:auto;
     width: 30%;
     font-size: 20px;
     font-family: Bradley Hand ITC;
     padding: 0%;
     color: rgb(214, 111, 15);
-    border-bottom: 1px solid rgb(41, 89, 179);
+    border-bottom: 1px solid rgb(41, 89, 179) ;
 }
-
-.titull i {
+.titull i{
     color: rgb(214, 111, 15);
     font-size: 15px;
 }
-
-.titull p {
+.titull p{
     font-size: 30px;
     font-family: Bradley Hand ITC;
     margin: 0%;
     padding: 0%;
     font-weight: bold;
 }
-
-.formulari {
+.formulari{
     width: 90%;
     height: 73%;
-    margin: auto;
+    margin:auto;
     border-radius: 20px;
     box-sizing: border-box;
     box-shadow:
-        0 0px 60px rgba(233, 219, 219, 0.233),
-        0 0px 50px rgba(233, 219, 219, 0.333),
-        0 0px 30px rgba(233, 219, 219, 0.417),
-        0 0px 16px rgba(233, 219, 219, 0.517),
-        0 0px 20px rgba(233, 219, 219, 0.75);
-    padding-top: 10px;
-    align-content: center;
+  0 0px 60px rgba(233, 219, 219, 0.233),
+  0 0px 50px rgba(233, 219, 219, 0.333),
+  0 0px 30px rgba(233, 219, 219, 0.417),
+  0 0px 16px rgba(233, 219, 219, 0.517),
+  0 0px 20px rgba(233, 219, 219, 0.75);  
+  padding-top: 10px;
+  align-content: center;
 }
-
-.ndarje {
+.ndarje{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 8px;
 }
-
-.email {
+#fname , #ftel ,#fresidenca, #fticket{
+    width: 45%;
+    padding: 0px 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: 1px solid rgb(214, 111, 15);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+    font-weight: 800;
+}
+#fname::placeholder,#fsurname::placeholder, #ftel::placeholder,
+ #fpersonal::placeholder, #fticket::placeholder, #fprice::placeholder,
+ #fresidenca::placeholder, #fdestination::placeholder, #fbank::placeholder {
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+    font-weight: 800;
+    padding: 0%;
+}
+#fsurname, #fpersonal, #fdestination, #fprice{
+    width: 45%;
+    padding: 12px 8px;
+    margin:8px 0;
+    border: 1px solid rgb(214, 111, 15);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+    font-weight: 800;
+}
+.email{
     width: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-.mesazhet {
+input[type=email], #fbank{
+    width: 93%;
+    border: 1px solid rgb(214, 111, 15);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+    font-weight: 800;
+    margin:8px 0;
+    padding: 12px 8px;
+}
+.mesazhet{
     display: flex;
     flex-direction: row;
     width: 93%;
@@ -149,10 +176,207 @@ body {
     margin-top: 0%;
     margin-bottom: 0%;
 }
+.mesazhet #id5, #id10{
+    width: 93%;
+    padding: 0%;
+    margin:0%;
+    color:red;
+    font-size: 10px;
+}
 
-.butonnat {
+.mesazhet #id1,#id3,#id6,#id8{
+    width: 52%;
+    padding: 0%;
+    margin:0%;
+    color:red;
+    font-size: 10px;
+}
+
+.mesazhet #id2,#id4,#id7,#id9{
+    width: 47%;
+    padding: 0%;
+    margin:0%;
+    color:red;
+    font-size: 10px;
+}
+
+.button3 {
+    display: block;
+    background-color: rgb(57, 181, 195);
+    width: 75px;
+    height: 50px;
+    border: 2px dotted rgba(255, 255, 255, 1);
+    border-radius:10px;
+    overflow:hidden;
+    transition: all .5s;
+  }
+  
+  .button3:hover {
+    width:50px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px dotted rgba(10, 180, 200, 1);
+    transform:rotate(-90deg);
+    cursor: pointer;
+    transition: all .5s;
+  }
+  
+  .button3-content {
+    display:block;
+    position:relative;
+    width:75px;
+    height:50px;
+    font-family: arial;
+    color: rgba(255, 255, 255, 1);
+    font-weight:bold;
+    font-size: 14px;
+    line-height:45px;
+    white-space:none;
+    left:17px;
+    transition: all .5s;
+  }
+  
+  .button3:hover .button3-content {
+    left:-103px;
+    transition: all .5s;
+  }
+  
+  .button3-content:after {
+    position: absolute;
+    width:75px;
+    height:50px;
+    top: -2px;
+    left:110px;
+    content: '(:';
+    font-size:45px;
+    color: rgba(10, 180, 200, 1);
+  }
+  
+  .button3:active .button3-content:after {
+    content:'<3';
+    transform: rotate(90deg);
+    top: 15px;
+    left: 90px;
+  }
+  
+  /*button4*/
+  
+  .button4 {
+    display: block;
+    background-color: rgba(200, 50, 0, 1);
+    width: 75px;
+    height: 50px;
+    border: 2px dotted rgba(255, 255, 255, 1);
+    border-radius:10px;
+    overflow:hidden;
+    transition: all .5s;
+  }
+  
+  .button4:hover {
+    width:50px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px dotted rgba(200, 50, 0, 1);
+    transform:rotate(90deg);
+    cursor: pointer;
+    transition: all .5s;
+  }
+  
+  .button4-content {
+    display:block;
+    position:relative;
+    width:75px;
+    height:50px;
+    font-family: arial;
+    color: rgba(255, 255, 255, 1);
+    font-weight:bold;
+    font-size: 14px;
+    line-height:45px;
+    white-space:none;
+    left:17px;
+    transition: all .5s;
+  }
+  
+  .button4:hover .button4-content {
+    left:-103px;
+    transition: all .5s;
+  }
+  
+  .button4:active .button4-content:after {
+    content:':o';
+  }
+  
+  .button4-content:after {
+    position: absolute;
+    width:75px;
+    height:50px;
+    top: -2px;
+    left:110px;
+    content: ':(';
+    font-size:45px;
+    color: rgba(200, 50, 0, 1);
+  }
+  
+  /*Button5*/
+  
+  .button5 {
+    display: block;
+    background-color: rgb(127, 165, 127);
+    width: 100px;
+    height: 50px;
+    border: 2px dotted rgba(255, 255, 255, 1);
+    border-radius:10px;
+    overflow:hidden;
+    transition: all .5s;
+  }
+  
+  .button5:hover {
+    width:50px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px dotted rgba(90, 110, 90, 1);
+    transform:rotate(90deg);
+    cursor: pointer;
+    transition: all .5s;
+  }
+  
+  .button5-content {
+    display:block;
+    position:relative;
+    width:100px;
+    height:50px;
+    font-family: arial;
+    color: rgba(255, 255, 255, 1);
+    font-weight:bold;
+    font-size: 14px;
+    line-height:45px;
+    white-space:none;
+    left:17px;
+    transition: all .5s;
+  }
+  
+  .button5:hover .button5-content {
+    left:-103px;
+    transition: all .5s;
+  }
+  
+  .button5:active .button5-content:after {
+    content:'*';
+    top:12px;
+  }
+  
+  .button5-content:after {
+    position: absolute;
+    width:75px;
+    height:50px;
+    top: -2px;
+    left:110px;
+    content: ':/';
+    font-size:45px;
+    color: rgba(90, 110, 90, 1);
+  }
+
+  .butonnat{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
+  }
+
