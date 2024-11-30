@@ -152,7 +152,7 @@ html {
 	min-height: 100%;
 	transition-property: transform, -webkit-transform;
 	transition-duration: 10s;
-
+	width: 100%;
 
 }
 
@@ -569,7 +569,7 @@ h5 {
 	justify-content: center;
 	position: relative;
 	transition: all 0.3s ease;
-	
+
 	padding: 20px;
 	height: 68px;
 	font-family: "Galano Grotesque", Poppins, Montserrat, sans-serif;
@@ -1003,7 +1003,7 @@ footer a {
 	width: 140px;
 	height: 40px;
 	border: none;
-	margin-left:7px;
+	margin-left: 7px;
 	border-radius: 10px;
 	background: linear-gradient(to right, #810202, #e87c7c, #810202, #810202, #e87c7c, #810202);
 	background-size: 250%;
@@ -1055,7 +1055,7 @@ footer a {
 }
 
 .social i {
-	font-size: 32px;
+	font-size: 20px;
 	padding: 8px;
 	text-align: center;
 	border: 1px solid #ffff0031;
@@ -1371,6 +1371,10 @@ footer a {
 		font-size: 24px;
 	}
 
+	.prapavija {
+		height: 85vh;
+	}
+
 	#vid {
 		width: 100%;
 
@@ -1478,6 +1482,18 @@ footer a {
 		width: 60%;
 	}
 
+}
+
+@media screen and (max-width: 680px) and (min-width: 551px) {
+	.content {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.content {
+		grid-template-columns: 1fr;
+	}
 }
 
 @media screen and (max-width: 496px) {
