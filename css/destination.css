@@ -1358,6 +1358,17 @@ footer a {
         cursor: pointer;
     }
 }
+@media screen and (max-width: 680px) and (min-width: 551px) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .navigimi h2 {
@@ -1632,16 +1643,4 @@ footer a {
     border: none;
     font-size: 20px;
     color: white;
-}
-
-@media screen and (max-width: 680px) and (min-width: 551px) {
-    .content {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .content {
-        grid-template-columns: 1fr;
-    }
 }
