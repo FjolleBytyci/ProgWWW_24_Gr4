@@ -451,7 +451,7 @@ input[type=reset]:active {
     text-align: center;
     font-family: cursive;
     font-size: 20px;
-    color: #341f97;
+    color: #ffffff;
 }
 
 .join-form-btn:after,
@@ -645,12 +645,15 @@ input[type=reset] {
     color: #fff;
     background-attachment: fixed;
 }
-.rows{
+
+.rows {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 
-}.rows .column blockquote {
+}
+
+.rows .column blockquote {
     max-width: 500px;
     margin: 0 auto;
     margin-top: 25px;
@@ -659,11 +662,13 @@ input[type=reset] {
 
 
 .column {
-    flex: 1; /* Të gjitha kolonat kanë të njëjtën madhësi */
+    flex: 1;
+    /* Të gjitha kolonat kanë të njëjtën madhësi */
 }
 
 .space-between {
-    margin-left: 20px; /* Hapësirë shtesë opsionale për ndarjen mes blloqeve */
+    margin-left: 20px;
+    /* Hapësirë shtesë opsionale për ndarjen mes blloqeve */
 }
 
 
@@ -693,7 +698,7 @@ blockquote:before {
 
 cite img {
     height: 70px;
-    width:50px;
+    width: 50px;
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
@@ -701,164 +706,164 @@ cite img {
 
 /*----  FOOTER  ----*/
 footer {
-	background-color: #998c85;
-	line-height: 24px;
-	color: white;
-}
-
-.art {
-	background-color: #171819;
-	padding: 16px;
-	padding-top: 48px;
-	clip-path: polygon(0% 5%, 15% 0%, 100% 10%, 100% 100%, 0% 100%);
-}
-
-.content {
-	max-width: 1080px;
-	margin: auto;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 16px;
-}
-
-footer header {
-	font-size: 25px;
-	padding: 16px;
-}
-
-.content a {
-	font-size: 20px;
-	text-decoration: none;
-	display: block;
-	padding: 16px;
-	color: white;
-	opacity: 0.65;
-}
-
-.content a:hover {
-	opacity: 1;
-	color: #998c85;
-	font-size: 17px;
-	transition: all 0.3s ease 0s;
-}
-
-footer input {
-	border-style: solid;
-	line-height: 24px;
-	padding: 12px 16px;
-	font-size: 1rem;
-	width: 80%;
-	margin: 8px;
-	border-radius: 8px;
-	border-width: 2px;
-}
-
-footer input[type='mail'] {
-	background-color: transparent;
-	border-color: white;
-	color: white;
-}
-
-footer input[type='mail']:hover,
-footer input[type='mail']:focus {
-	border-color: #ffff00;
-	color: #ffff00;
-	transition: all 0.3s ease 0s;
-}
-
-
-footer a {
-	text-decoration: none;
-	margin: 0%;
-	padding: 0%;
-}
-
-.Btn {
-	width: 140px;
-	height: 40px;
-	border: none;
-	margin-left: 7px;
-	border-radius: 10px;
-	background: linear-gradient(to right, #810202, #e87c7c, #810202, #810202, #e87c7c, #810202);
-	background-size: 250%;
-	background-position: left;
-	color: #de3737;
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
-	transition-duration: 1s;
-	overflow: hidden;
-}
-
-.Btn::before {
-	position: absolute;
-	content: "SUBSCRIBE";
-	color: #de3737;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 97%;
-	height: 90%;
-	border-radius: 8px;
-	transition-duration: 1s;
-	background-color: rgba(0, 0, 0, 0.842);
-	background-size: 200%;
-}
-
-.Btn:hover {
-	background-position: right;
-	transition-duration: 1s;
-}
-
-.Btn:hover::before {
-	background-position: right;
-	transition-duration: 1s;
-}
-
-.Btn:active {
-	transform: scale(0.95);
-}
-
-.social {
-	margin: 16px;
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-gap: 16px;
-}
-
-.social i {
-	font-size: 20px;
-	padding: 8px;
-	text-align: center;
-	border: 1px solid #ffff0031;
-	border-radius: 8px;
-	width: 100%
-}
-
-.social a {
-	text-decoration: none;
-	margin: 0%;
-	padding: 0%;
-}
-
-.social i:hover {
-	color: #de3737;
-	border-color: #de3737;
-	box-shadow: 0px 0px 16px inset #ffff0031;
-	transition: all 0.3s ease 0s;
-}
-
-.notice {
-	text-align: center;
-	padding: 24px;
-}
-
-.notice strong {
-	color: red;
-	text-transform: uppercase;
-}
+    background-color: #998c85;
+    line-height: 24px;
+    color: white;
+  }
+  
+  .art {
+    background-color: #171819;
+    padding: 16px;
+    padding-top: 48px;
+    clip-path: polygon(0% 5%, 15% 0%, 100% 10%, 100% 100%, 0% 100%);
+  }
+  
+  .content {
+    max-width: 1080px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+  }
+  
+  footer header {
+    font-size: 25px;
+    padding: 16px;
+  }
+  
+  .content a {
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    color: white;
+    opacity: 0.65;
+  }
+  
+  .content a:hover {
+    opacity: 1;
+    color: #998c85;
+    font-size: 17px;
+    transition: all 0.3s ease 0s;
+  }
+  
+  footer input {
+    border-style: solid;
+    line-height: 24px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    width: 80%;
+    margin: 8px;
+    border-radius: 8px;
+    border-width: 2px;
+  }
+  
+  footer input[type='mail'] {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+  
+  footer input[type='mail']:hover,
+  footer input[type='mail']:focus {
+    border-color: #ffff00;
+    color: #ffff00;
+    transition: all 0.3s ease 0s;
+  }
+  
+  
+  footer a {
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .Btn {
+    width: 140px;
+    height: 40px;
+    border: none;
+    margin-left: 7px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #810202, #e87c7c, #810202, #810202, #e87c7c, #810202);
+    background-size: 250%;
+    background-position: left;
+    color: #de3737;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+  }
+  
+  .Btn::before {
+    position: absolute;
+    content: "SUBSCRIBE";
+    color: #de3737;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 0, 0.842);
+    background-size: 200%;
+  }
+  
+  .Btn:hover {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .Btn:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .Btn:active {
+    transform: scale(0.95);
+  }
+  
+  .social {
+    margin: 16px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 16px;
+  }
+  
+  .social i {
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ffff0031;
+    border-radius: 8px;
+    width: 100%
+  }
+  
+  .social a {
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .social i:hover {
+    color: #de3737;
+    border-color: #de3737;
+    box-shadow: 0px 0px 16px inset #ffff0031;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .notice {
+    text-align: center;
+    padding: 24px;
+  }
+  
+  .notice strong {
+    color: red;
+    text-transform: uppercase;
+  }
 
 @media screen and (max-width: 1340px) {
     .navigimi {
@@ -880,6 +885,7 @@ footer a {
         margin-left: 0;
     }
 }
+
 @media screen and (max-width: 680px) and (min-width: 551px) {
     .content {
         grid-template-columns: 1fr 1fr;
@@ -1018,193 +1024,34 @@ footer a {
     .prapavija {
         background-position: center;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-    background-color: #998c85;
-    line-height: 24px;
-    color: white;
-}
-
-.art {
-    background-color: #171819;
-    padding: 16px;
-    padding-top: 48px;
-    clip-path: polygon(0% 5%, 15% 0%, 100% 10%, 100% 100%, 0% 100%);
-}
-
-.content {
-    max-width: 1080px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 16px;
-}
-
-footer header {
-    font-size: 25px;
-    padding: 16px;
-}
-
-.content a {
-    font-size: 20px;
-    text-decoration: none;
-    display: block;
-    padding: 16px;
-    color: white;
-    opacity: 0.65;
-}
-
-.content a:hover {
-    opacity: 1;
-    color: #998c85;
-    font-size: 17px;
-    transition: all 0.3s ease 0s;
-}
-
-footer input {
-    border-style: solid;
-    line-height: 24px;
-    padding: 12px 16px;
-    font-size: 1rem;
-    width: 80%;
-    margin: 8px;
-    border-radius: 8px;
-    border-width: 2px;
-}
-
-footer input[type='mail'] {
-    background-color: transparent;
-    border-color: white;
-    color: white;
-}
-
-footer input[type='mail']:hover,
-footer input[type='mail']:focus {
-    border-color: #ffff00;
-    color: #ffff00;
-    transition: all 0.3s ease 0s;
-}
-
-
-footer a {
-    text-decoration: none;
-    margin: 0%;
-    padding: 0%;
-}
-
-.Btn {
-    width: 140px;
-    height: 40px;
-    border: none;
-    margin-left: 7px;
-    border-radius: 10px;
-    background: linear-gradient(to right, #810202, #e87c7c, #810202, #810202, #e87c7c, #810202);
-    background-size: 250%;
-    background-position: left;
-    color: #de3737;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition-duration: 1s;
-    overflow: hidden;
-}
-
-.Btn::before {
-    position: absolute;
-    content: "SUBSCRIBE";
-    color: #de3737;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 97%;
-    height: 90%;
-    border-radius: 8px;
-    transition-duration: 1s;
-    background-color: rgba(0, 0, 0, 0.842);
-    background-size: 200%;
-}
-
-.Btn:hover {
-    background-position: right;
-    transition-duration: 1s;
-}
-
-.Btn:hover::before {
-    background-position: right;
-    transition-duration: 1s;
-}
-
-.Btn:active {
-    transform: scale(0.95);
-}
-
-.social {
-    margin: 16px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 16px;
-}
-
-.social i {
-    font-size: 20px;
-    padding: 8px;
-    text-align: center;
-    border: 1px solid #ffff0031;
-    border-radius: 8px;
-    width: 100%
-}
-
-.social a {
-    text-decoration: none;
-    margin: 0%;
-    padding: 0%;
-}
-
-.social i:hover {
-    color: #de3737;
-    border-color: #de3737;
-    box-shadow: 0px 0px 16px inset #ffff0031;
-    transition: all 0.3s ease 0s;
-}
-
-.notice {
-    text-align: center;
-    padding: 24px;
-}
-
-.notice strong {
-    color: red;
-    text-transform: uppercase;
-}
-
-#inpKey,
-#inpValue,
-#btnInsert,
-#btnremove,
-#btnclear {
-	padding: 7px;
-	height: 40px;
-}
-
-fieldset {
-	margin-bottom: 20px;
+    .join-us {
+        display: inline-block;
+        margin-left: 90px;
+        margin-top: 20px;
+        border: 1px solid #688d47;
+        border-radius: 5px;
+        height: 50px;
+        width: 220px;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 5px;
+        background-color: #688d47;
+        color: #ffffff;
+        font-family: serif;
+        box-shadow: 5px 7px 10px -3px #a1b590;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .join-us:hover {
+        cursor: pointer;
+        background-color: #688d47;
+        border-color: #688d47;
+        font-size: 32px;
+        padding-bottom: 2px;
+        box-shadow: 5px 7px 10px -3px #688d47;
+        transition: background-color 0.2s, border-color 0.2s, font-size 0.2s, box-shadow 0.2s;
+    }
+    
 }

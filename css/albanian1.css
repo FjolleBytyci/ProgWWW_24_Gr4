@@ -774,12 +774,14 @@ footer a {
     padding-right: 0px;
     margin-right: 0px;
   }
+ 
 }
 
 @media screen and (max-width: 991px) {
   .navigimi {
     padding: 16px 48px;
   }
+  
   
   .navigimi h2 {
     font-size: 25.6px;
@@ -830,7 +832,7 @@ footer a {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px ) and (min-width: 745.48px) {
   .slider {
     width: 100%;
     aspect-ratio: 4 / 3;
